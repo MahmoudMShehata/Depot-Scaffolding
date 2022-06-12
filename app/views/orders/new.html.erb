@@ -1,0 +1,10 @@
+<section class="depot_form">
+ <h1>Please Enter Your Details</h1>
+ <%= render 'form', order: @order %>
+</section>
+
+<%= javascript_pack_tag("hello_react") %>
+
+<%= render 'form', order: @order %>
+
+<%= link_to 'Back', orders_path %>
